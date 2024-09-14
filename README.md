@@ -1,6 +1,3 @@
-# Thesis-Project
-This repository contains the code developed as part of my final thesis titled 'Development and Implementation of an Algorithm for Estimating the Metabolic Potential of Microorganisms Using Flux Balance Modelling' at Novosibirsk State University in 2022.
-
 # Microorganism Metabolic Potential Estimation Algorithm
 
 ## DESCRIPTION
@@ -58,8 +55,6 @@ list_value_opt = model.algorithm()  # List of inhibited reactions
 
 To output the mutants, use 
 ```print(list_value_opt)```
-
-See the example below.
 
 The file `mutants.txt` contains information about all inhibited reactions and their impact on the objective function when the program is run on the test model. Reactions are sorted in descending order of their influence on the growth of the objective function.
 

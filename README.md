@@ -42,7 +42,6 @@ pip install numpy
 
 To execute the program, run:
 python main_with_cobra.py
-
 =====================================================================
 
 ## CHANGING THE MODEL
@@ -50,6 +49,7 @@ python main_with_cobra.py
 The model.json file contains all the information about the model, including the set of biochemical reactions, constraints, metabolites, and genes.
 
 To change the model, modify the path in the program. See the example below.
+
 =====================================================================
 
 example:
@@ -71,6 +71,6 @@ The file mutants.txt contains information about all inhibited reactions and thei
 
 =====================================================================
 
-COBRAPY DOCUMENTATION
+## COBRAPY DOCUMENTATION
 For more information on how to use the cobrapy library, refer to the official documentation: COBRApy Documentation
 https://cobrapy.readthedocs.io/en/latest/index.html
